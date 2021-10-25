@@ -1,0 +1,44 @@
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+}
+img {
+  height: 130px;
+  width: 250px;
+  object-fit: cover;
+}
+.image {
+  padding: 10px;
+  border: 6px solid rgb(54, 54, 54);
+  border-radius: 8px;
+  height: 130px;
+  width: 250px;
+  margin: 10px;
+}
+.first {
+  display: flex;
+  justify-content: flex-start;
+}
+.second {
+  display: flex;
+  justify-content: center;
+}
+.third {
+  display: flex;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 600px) {
+  img {
+    height: 130px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .image {
+    padding: 10px;
+    border: 6px solid rgb(54, 54, 54);
+    border-radius: 8px;
+    height: 130px;
+    width: 100%;
+    margin: 10px;
+  }
+}
